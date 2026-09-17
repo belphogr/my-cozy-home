@@ -12,14 +12,11 @@
 
 </div>
 
-> **所有配图均为本地运行的真实 WebGL 截图；不使用 AI 概念图或资产展示图。**  
-> **Every image below is a live local WebGL capture—no AI concept art or standalone asset renders.**
-
 <p align="center">
   <img src="artifacts/readme-interior-day.png" alt="小屋白天室内的实际运行截图" width="100%" />
 </p>
 
-<p align="center"><sub>实际运行截图：白天的室内全景 · Live capture: interior overview in daylight</sub></p>
+<p align="center"><sub>白天的室内全景 · Interior overview in daylight</sub></p>
 
 ---
 
@@ -36,9 +33,9 @@
   <img src="artifacts/readme-object-inspection.png" alt="陶瓷茶杯拿起查看的实际运行截图" width="49%" />
 </p>
 
-<p align="center"><sub>实际运行截图：夜晚氛围 · 拿起陶瓷茶杯查看<br />Live captures: night mood · ceramic-cup inspection</sub></p>
+<p align="center"><sub>夜晚氛围 · 拿起陶瓷茶杯查看<br />Night mood · ceramic-cup inspection</sub></p>
 
-### 实机体验画廊 · Live interaction gallery
+### 小屋一览 · Explore the home
 
 <p align="center">
   <img src="artifacts/readme-garden.png" alt="庭院、泳池与热带植物的实际运行截图" width="100%" />
@@ -53,16 +50,27 @@
 
 <p align="center"><sub>打开书架 · 打开电脑<br />Opened bookshelf · Opened computer</sub></p>
 
-### 现在可以体验
+### 功能一览
 
-| 区域 | 交互体验 |
+| 功能 | 你可以做什么 |
 | --- | --- |
-| 🏡 室内与庭院 | 在同一连通场景中切换室内／室外镜头，经过门洞并保留屋顶、木梁、墙体与环境光。 |
-| 🪑 可探索物件 | 点击家具或小物件自动靠近；茶杯、笔记本、盆栽、鼠标、茶几物件、盆栽与洒水壶可拿起旋转查看。 |
-| 💻 屏幕内桌面 | 点击显示器进入个人数字桌面，可编辑昵称、介绍与兴趣，创建／搜索文字记录并添加收藏链接。 |
-| 🎵 唱片角 | 靠近唱片机后可播放／暂停、调整音量与进度；唱片和唱臂会同步动作。内置一段原创合成示例曲。 |
-| 🌤️ 日夜与氛围 | 白天有暖色日光与窗影；夜晚点亮吊灯、台灯、门廊与庭院小灯，并显示星空。 |
-| 🐈 本地偏好 | 设置支持减少动态与文字桌面；小猫拥有 Idle / Walking 两种现有动画。 |
+| 🏡 连通的小屋 | 在室内与庭院之间切换视角，穿过门洞；屋顶、木梁、客厅、书桌、泳池与热带植物始终处在同一个场景。 |
+| 🌤️ 日夜氛围 | 一键切换白天与夜晚。白天呈现暖色日光与窗影；夜晚点亮吊灯、台灯、门廊和庭院灯，并可看见星空。 |
+| 🪑 物件互动 | 首次点击家具或物品可自动靠近；再次点击小物件可拿起并旋转查看。茶杯、笔记本、盆栽、鼠标、手机、地球仪、茶几物件、庭院盆栽与洒水壶均可探索。 |
+| 🏷️ 风铃便签 | 打开风铃卡片可维护四张固定位置的便签：为每张选择表情与简短关键词，保存后会显示在屋内的卡片上。 |
+| 🖼️ 照片墙 | 可为七个画框选择本地照片，并在聚焦状态恢复默认图案或删除选中的照片。 |
+| 📚 我的书架 | 点击落地书墙打开“我的书架”，录入书名与作者；书目会以封面形式排入书架，并支持删除。 |
+| 💻 我的电脑 | 点击显示器进入屏幕内桌面：编辑个人资料，添加／删除收藏网站，并授权读取本地文件夹的目录列表。 |
+| 🏅 成果墙 | 记录奖项或论文的标题、机构、年份与说明；可附加 JPEG、PNG、WebP 图片或 PDF，并在墙上查看详情。 |
+| 🎵 午后唱片机 | 靠近唱片机即可播放／暂停、调整进度与音量；唱片和唱臂同步动作。内置原创示例曲，也可临时选择本地音频。 |
+| 🐾 宠物与设置 | 点击小狗可切换外出散步／回窝休息；小猫提供 Idle 与 Walking 动画。另支持中英切换、视角复位、减少动态和文字桌面。 |
+
+### 互动方式
+
+- 拖动鼠标或使用方向键小范围环顾；右上角可复位镜头。
+- 点击物件靠近，再点一次查看或使用；拿起物件时可拖动旋转，`Esc` 或右键放回。
+- 点击显示器，或书桌近景中的“使用电脑”进入桌面；`Esc` 会先关闭窗口，再退出电脑。
+- 在手机上建议横屏体验三维场景；竖屏时可在电脑模式选择“展开阅读”。
 
 ### 快速开始
 
@@ -77,22 +85,15 @@ npm.cmd run dev
 
 开发环境使用 Node.js 22。开发服务器固定监听 `127.0.0.1:5173`；请不要交替使用 `localhost`、IP 或其他端口，以免进入不同的浏览器本地存储空间。
 
-### 操作提示
-
-- 拖动鼠标或使用方向键小范围环顾；右上角可复位镜头。
-- 点击物件靠近；在物件近景中选择“拿起查看”可旋转，`Esc` 放回。
-- 点击显示器，或书桌近景中的“使用电脑”进入软件；`Esc` 依次关闭软件和退出电脑。
-- 建议在手机横屏体验 3D 场景；竖屏时可在电脑模式选择“展开阅读”。
-
 ### 数据与隐私
 
-资料、文字记录和收藏保存在当前浏览器的 IndexedDB 数据库 `my-cozy-home`。项目没有业务后端、账号、加密或云同步，**不会上传你的内容**。
+个人资料、便签、书目、照片、收藏、文件夹索引与成果记录保存在当前浏览器的 IndexedDB 数据库 `my-cozy-home`。项目没有业务后端、账号、加密或云同步，**不会上传你的内容**；本地文件夹仅在你主动授权后读取目录列表。
 
 目前还没有 ZIP 导入导出、跨设备同步或恢复机制。请不要把唯一的重要资料仅保存在样板中；更换浏览器／设备／访问地址，或清除站点数据都可能导致本地内容不可见。
 
 ### 后续计划
 
-- 照片与纪念物、记录摆放和回忆册
+- 纪念物与记录摆放
 - ZIP 备份、导入与恢复
 - 植物成长与照顾系统
 - 宠物喂食、抚摸、逗猫与趴睡动画
@@ -118,14 +119,20 @@ npm.cmd run build
 
 It is not a static page. The scene is rendered in real time with React Three Fiber and Three.js; its furniture, plants, turntable, and pets are explorable 3D elements. Profile data, notes, and links stay in your browser's IndexedDB and are never sent to a server.
 
-### Available today
+### Feature map
 
-- **Connected home and garden** — switch interior/exterior viewpoints through the doorway while keeping the house structure, lighting, and garden together in one scene.
-- **Object exploration** — approach furniture and inspect small items such as cups, notebooks, plants, a mouse, garden tools, and living-room objects in hand.
-- **In-world desktop** — use the monitor to edit a profile, create and search text notes, and save favourite links.
-- **Turntable corner** — play, pause, seek, and adjust volume while the record and tonearm animate; an original synthetic demo track is included.
-- **Day/night mood** — warm daylight and window shadows by day, then practical lamps, garden lights, and stars at night.
-- **Local preferences** — reduced-motion and text-desktop settings are supported; the cat currently has Idle and Walking animations.
+| Feature | What you can do |
+| --- | --- |
+| Connected home | Move the view between the roofed interior and tropical garden through the doorway; the desk, living space, pool, roof, and planting remain one continuous scene. |
+| Day and night | Switch between sunlit window shadows and a night scene with pendant lamps, desk light, porch and garden lighting, plus stars. |
+| Object inspection | Approach furniture, then pick up and rotate small objects: cups, notebooks, plants, mouse, phone, globe, table objects, watering can, and garden plants. |
+| Hanging-note tags | Edit four fixed hanging-card tags with an emoji and short keyword; saved tags appear back in the room. |
+| Photo wall | Upload local photos into seven frames, restore a default image, or remove the selected photo. |
+| My Library | Open the tall book wall, add book titles and authors, see them arranged as shelf covers, and delete entries. |
+| My Computer | Use the in-world monitor to edit a profile, manage bookmarks, and—only after your permission—read a selected local folder's directory listing. |
+| Recognition wall | Store awards or papers with title, organisation, year, description, and an optional JPEG, PNG, WebP, or PDF attachment. |
+| Turntable | Name track slots, temporarily choose local audio, and control play, pause, seek, and volume while the record and tonearm animate. |
+| Pets and preferences | Click the dog to toggle a walk or rest; the cat has Idle and Walking animations. Chinese/English, reset view, reduced motion, and text-desktop settings are also available. |
 
 ### Run locally
 
@@ -149,13 +156,13 @@ The project uses Node.js 22 and intentionally serves only on `127.0.0.1:5173`. A
 
 ### Privacy and data boundary
 
-Profiles, notes, and bookmarks are stored in the current browser's `my-cozy-home` IndexedDB database. There is no application backend, account system, encryption layer, or cloud sync; **your content is not uploaded**.
+Profiles, tags, books, photos, bookmarks, folder indexes, and recognition records are stored in the current browser's `my-cozy-home` IndexedDB database. There is no application backend, account system, encryption layer, or cloud sync; **your content is not uploaded**. A local folder is read only after you explicitly grant access, and only its directory listing is stored.
 
 This prototype does not yet provide ZIP import/export, cross-device sync, or recovery. Do not keep your only copy of important material here. Changing browsers, devices, or site addresses—or clearing site data—can make local content unavailable.
 
 ### Roadmap
 
-- Photos, keepsakes, placeable memories, and a memory book
+- Placeable keepsakes and memories
 - ZIP backup, import, and recovery
 - Plant growth and care
 - Feeding, petting, play, and resting interactions for pets
