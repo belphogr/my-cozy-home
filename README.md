@@ -12,14 +12,14 @@
 
 </div>
 
-> **所有配图均来自本仓库的 Blender 实机渲染或资产 QA 预览；不使用 AI 概念图。**  
-> **Every image below is a real Blender render or asset-QA preview from this repository—no AI concept art.**
+> **所有配图均为本地运行的真实 WebGL 截图；不使用 AI 概念图或资产展示图。**  
+> **Every image below is a live local WebGL capture—no AI concept art or standalone asset renders.**
 
 <p align="center">
-  <img src="references/intro-bali/beauty-main-estate-v1.png" alt="Blender 渲染的小屋、庭院与泳池鸟瞰" width="100%" />
+  <img src="artifacts/readme-interior-day.png" alt="小屋白天室内的实际运行截图" width="100%" />
 </p>
 
-<p align="center"><sub>Blender 实机渲染：热带小屋、庭院与泳池 · Blender render: tropical home, garden, and pool</sub></p>
+<p align="center"><sub>实际运行截图：白天的室内全景 · Live capture: interior overview in daylight</sub></p>
 
 ---
 
@@ -32,11 +32,26 @@
 这不是静态页面：场景由 React Three Fiber / Three.js 实时渲染，家具、植物、唱片机与宠物都处在可探索的三维空间中。个人资料、记录与收藏仅存于本机浏览器的 IndexedDB，不会上传到服务器。
 
 <p align="center">
-  <img src="artifacts/eggchair-blender-preview-v4.png" alt="原创藤编悬挂椅 Blender 实机预览" width="49%" />
-  <img src="artifacts/dog_rest_qa.png" alt="小狗模型静置状态的 QA 实机预览" width="49%" />
+  <img src="artifacts/readme-interior-night.png" alt="小屋夜晚室内的实际运行截图" width="49%" />
+  <img src="artifacts/readme-object-inspection.png" alt="陶瓷茶杯拿起查看的实际运行截图" width="49%" />
 </p>
 
-<p align="center"><sub>本项目原创资产的 Blender / QA 实机预览 · Real Blender / QA previews of project assets</sub></p>
+<p align="center"><sub>实际运行截图：夜晚氛围 · 拿起陶瓷茶杯查看<br />Live captures: night mood · ceramic-cup inspection</sub></p>
+
+### 实机体验画廊 · Live interaction gallery
+
+<p align="center">
+  <img src="artifacts/readme-garden.png" alt="庭院、泳池与热带植物的实际运行截图" width="100%" />
+</p>
+
+<p align="center"><sub>庭院：泳池、种植台与热带绿植 · Garden: pool, potting bench, and tropical planting</sub></p>
+
+<p align="center">
+  <img src="artifacts/readme-bookshelf-open.png" alt="打开我的书架的实际运行截图" width="49%" />
+  <img src="artifacts/readme-computer-open.png" alt="打开我的电脑的实际运行截图" width="49%" />
+</p>
+
+<p align="center"><sub>打开书架 · 打开电脑<br />Opened bookshelf · Opened computer</sub></p>
 
 ### 现在可以体验
 
