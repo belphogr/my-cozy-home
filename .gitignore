@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+.asset-cache/
+test-results/
+*.log
+*.err.log
+*.stdout.log
+*.stderr.log
+desktop-data/
+*.blend1
+__pycache__/
+*.pyc

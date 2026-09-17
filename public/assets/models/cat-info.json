@@ -1,0 +1,70 @@
+{
+  "source": ".asset-cache/animals/Animal Pack Vol.2 by @Quaternius/FBX/Cat.fbx",
+  "size": [
+    566.7459424204613,
+    447.9477053271202,
+    142.49773861029541
+  ],
+  "animations": [
+    {
+      "name": "CatArmature|Idle",
+      "duration": 1.6666666269302368,
+      "tracks": 75
+    },
+    {
+      "name": "CatArmature|Walking",
+      "duration": 1.6666666269302368,
+      "tracks": 75
+    }
+  ],
+  "bones": [
+    "IKBackRight",
+    "IKBackRight_end",
+    "IKFrontLeft",
+    "IKFrontLeft_end",
+    "IKFrontRight",
+    "IKFrontRight_end",
+    "Bone",
+    "Bone011",
+    "Bone012",
+    "Bone013",
+    "Bone013_end",
+    "Bone001",
+    "Bone002",
+    "Bone003",
+    "Bone003_end",
+    "Bone017",
+    "Bone018",
+    "Bone019",
+    "Bone019_end",
+    "Bone014",
+    "Bone015",
+    "Bone016",
+    "Bone016_end",
+    "Bone008",
+    "Bone009",
+    "Bone010",
+    "Bone010_end",
+    "Bone004",
+    "Bone005",
+    "Bone006",
+    "Bone007",
+    "Bone007_end",
+    "IKBackLeft",
+    "IKBackLeft_end"
+  ],
+  "materials": [
+    {
+      "name": "Grey",
+      "color": "ffffff"
+    },
+    {
+      "name": "White",
+      "color": "ffffff"
+    },
+    {
+      "name": "Pink",
+      "color": "ffffff"
+    }
+  ]
+}

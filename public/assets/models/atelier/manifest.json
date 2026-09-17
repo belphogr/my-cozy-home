@@ -1,0 +1,152 @@
+{
+  "Desk": {
+    "triangles": 7232,
+    "materials": 5,
+    "bytes": 300832
+  },
+  "Chair": {
+    "triangles": 54116,
+    "materials": 5,
+    "bytes": 1206744
+  },
+  "Cup": {
+    "triangles": 5400,
+    "materials": 4,
+    "bytes": 123940
+  },
+  "Lamp": {
+    "triangles": 12664,
+    "materials": 4,
+    "bytes": 300804
+  },
+  "Plant": {
+    "triangles": 16536,
+    "materials": 8,
+    "bytes": 383508
+  },
+  "Pendant": {
+    "triangles": 32088,
+    "materials": 5,
+    "bytes": 672928
+  },
+  "Landscape": {
+    "triangles": 14948,
+    "materials": 9,
+    "bytes": 413272
+  },
+  "Deskbooks": {
+    "triangles": 8272,
+    "materials": 9,
+    "bytes": 471564
+  },
+  "Shelf": {
+    "triangles": 28688,
+    "materials": 16,
+    "bytes": 1356252
+  },
+  "Floorplant": {
+    "triangles": 45216,
+    "materials": 6,
+    "bytes": 1023504
+  },
+  "Window": {
+    "triangles": 54760,
+    "materials": 6,
+    "bytes": 1348204
+  },
+  "Sofa": {
+    "triangles": 29576,
+    "materials": 8,
+    "bytes": 702684
+  },
+  "Coffeetable": {
+    "triangles": 4840,
+    "materials": 2,
+    "bytes": 113476
+  },
+  "Rug": {
+    "triangles": 46796,
+    "materials": 3,
+    "bytes": 1045620
+  },
+  "Gardenentry": {
+    "triangles": 6600,
+    "materials": 5,
+    "bytes": 337360
+  },
+  "Pottingbench": {
+    "triangles": 3196,
+    "materials": 2,
+    "bytes": 168592
+  },
+  "Lounger": {
+    "triangles": 6036,
+    "materials": 3,
+    "bytes": 270904
+  },
+  "Wateringcan": {
+    "triangles": 6288,
+    "materials": 2,
+    "bytes": 141932
+  },
+  "Flowers": {
+    "triangles": 21776,
+    "materials": 5,
+    "bytes": 489736
+  },
+  "Succulent": {
+    "triangles": 9848,
+    "materials": 4,
+    "bytes": 222768
+  },
+  "Poolshell": {
+    "triangles": 16284,
+    "materials": 3,
+    "bytes": 978588
+  },
+  "Diningtable": {
+    "triangles": 5952,
+    "materials": 2,
+    "bytes": 142316
+  },
+  "Sideboard": {
+    "triangles": 12028,
+    "materials": 5,
+    "bytes": 531368
+  },
+  "Turntable": {
+    "triangles": 4304,
+    "materials": 5,
+    "bytes": 184276
+  },
+  "Vinyl": {
+    "triangles": 13492,
+    "materials": 4,
+    "bytes": 320000
+  },
+  "Palm": {
+    "triangles": 58656,
+    "materials": 4,
+    "bytes": 1321056
+  },
+  "Broadleaf": {
+    "triangles": 11040,
+    "materials": 4,
+    "bytes": 254152
+  },
+  "Fern": {
+    "triangles": 32640,
+    "materials": 3,
+    "bytes": 739892
+  },
+  "Niche": {
+    "triangles": 22029,
+    "materials": 14,
+    "bytes": 586124
+  },
+  "Understory": {
+    "triangles": 9864,
+    "materials": 4,
+    "bytes": 227332
+  }
+}
