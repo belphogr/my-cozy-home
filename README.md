@@ -7,6 +7,7 @@
 
 [![React](https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=white)](https://react.dev/)
 [![Three.js](https://img.shields.io/badge/Three.js-r183-black?logo=three.js)](https://threejs.org/)
+[![Blender](https://img.shields.io/badge/Blender-5.2_LTS-E87D0D?logo=blender&logoColor=white)](https://www.blender.org/)
 [![Vite](https://img.shields.io/badge/Vite-7-646cff?logo=vite&logoColor=white)](https://vite.dev/)
 [![License](https://img.shields.io/badge/license-MIT-3da639.svg)](LICENSE)
 
@@ -26,7 +27,7 @@
 
 “我的小屋”是一个基于浏览器的互动式 3D 个人空间样板。你从有屋顶的室内开始，在书桌、客厅与热带庭院之间切换镜头；靠近、拿起并查看物件；通过显示器进入自己的数字桌面。
 
-这不是静态页面：场景由 React Three Fiber / Three.js 实时渲染，家具、植物、唱片机与宠物都处在可探索的三维空间中。个人资料、记录与收藏仅存于本机浏览器的 IndexedDB，不会上传到服务器。
+这不是静态页面：小屋的大部分家具、庭院、植物和可拿起物件均在 Blender 中建模并导出为 GLB；React Three Fiber / Three.js 在浏览器中负责实时渲染、镜头、灯光与交互。个人资料、记录与收藏仅存于本机浏览器的 IndexedDB，不会上传到服务器。
 
 <p align="center">
   <img src="artifacts/readme-interior-night.png" alt="小屋夜晚室内的实际运行截图" width="49%" />
@@ -107,7 +108,7 @@ npm.cmd test
 npm.cmd run build
 ```
 
-项目结构：`src/scene` 为场景与镜头，`src/desktop` 为屏幕内软件，`src/data` 为版本化本地数据与校验。素材与许可记录见 [ASSETS.md](ASSETS.md)，概念与交互约定见 [design/REVIEW.md](design/REVIEW.md)。
+项目结构：`design/blender` 与 `blender` 保存 Blender 源场景，`public/assets/models` 保存导出的 GLB，`src/scene` 负责网页端场景、镜头和交互，`src/desktop` 为屏幕内软件，`src/data` 为版本化本地数据与校验。素材与许可记录见 [ASSETS.md](ASSETS.md)。
 
 ---
 
@@ -117,7 +118,7 @@ npm.cmd run build
 
 **My Cozy Home** is a browser-based interactive 3D personal-space prototype. Begin inside a roofed room, move your view between the desk, living area, and tropical garden, inspect objects up close, and enter a digital desktop through the in-world monitor.
 
-It is not a static page. The scene is rendered in real time with React Three Fiber and Three.js; its furniture, plants, turntable, and pets are explorable 3D elements. Profile data, notes, and links stay in your browser's IndexedDB and are never sent to a server.
+It is not a static page. Most furniture, garden, plant, and pick-up assets are modelled in Blender and exported as GLB; React Three Fiber and Three.js handle real-time rendering, camera work, lighting, and interaction in the browser. Profile data, notes, and links stay in your browser's IndexedDB and are never sent to a server.
 
 ### Feature map
 
@@ -176,7 +177,7 @@ npm.cmd test
 npm.cmd run build
 ```
 
-`src/scene` contains the scene and camera, `src/desktop` the in-world desktop, and `src/data` the versioned local-data layer. See [ASSETS.md](ASSETS.md) for assets and licenses, and [design/REVIEW.md](design/REVIEW.md) for the concept and interaction contract.
+`design/blender` and `blender` contain Blender source scenes; `public/assets/models` contains exported GLB assets; `src/scene` contains browser-side scene, camera, and interaction code; `src/desktop` contains the in-world desktop; and `src/data` is the versioned local-data layer. See [ASSETS.md](ASSETS.md) for assets and licenses.
 
 ---
 
